@@ -238,7 +238,7 @@ lightGallery(document.getElementById('awards'), {
 });
 
 lightGallery(document.getElementById('showcase'), {
-    // plugins: [lgZoom, lgThumbnail],
+    // plugins: [lgZoom],
     selector: '.showcase-item',
     thumbnail: true,
     speed: 500
