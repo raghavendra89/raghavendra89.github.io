@@ -118,7 +118,7 @@
 
 
 	// Page loading animation
-	$(window).on('load', function() {
+	$(window).on('ready', function() {
 		if($('.cover').length){
 			$('.cover').parallax({
 				imageSrc: $('.cover').data('image'),
